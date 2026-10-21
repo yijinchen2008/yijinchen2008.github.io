@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="陈奕瑾的个人主页 - 导航页">
+    <meta name="author" content="陈奕瑾">
+    <meta name="theme-color" content="#0078D4">
+    <title>陈奕瑾的个人主页</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="prefetch" href="nju/">
+    <link rel="prefetch" href="preClass/">
+    <link rel="prefetch" href="tools/">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">陈奕瑾的个人主页</h1>
+        <nav class="nav-links" aria-label="主导航">
+            <a href="nju/" rel="noopener noreferrer">南大相关网站</a>
+            <a href="preClass/" rel="noopener noreferrer">所有课程</a>
+            <a href="tools/" rel="noopener noreferrer">所有工具</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <form method="get" class="search-form" role="search" aria-label="搜索引擎" target="_blank" id="search-form">
+                <select id="engine-select" aria-label="选择搜索引擎">
+                    <option value="https://www.bing.com/search">Bing</option>
+                    <option value="https://www.google.com/search">Google</option>
+                    <option value="https://www.baidu.com/s">百度</option>
+                    <option value="https://duckduckgo.com/">DuckDuckGo</option>
+                </select>
+                <input type="text" name="q" autofocus placeholder="Search with Bing..." aria-label="搜索内容" autocomplete="off" id="search-input">
+                
+                <button type="submit">搜索</button>
+            </form>
+            <div class="search-suggestions" id="search-suggestions" role="listbox" aria-label="搜索建议"></div>
+        </div>
+
+        <section class="link-section" aria-labelledby="nju-heading">
+            <h2 id="nju-heading">南大网站</h2>
+            <div class="link-grid">
+                <a href="https://www.nju.edu.cn/" target="_blank" rel="noopener noreferrer">南大官网</a>
+                <a href="https://ehall.nju.edu.cn/" target="_blank" rel="noopener noreferrer">南大办事服务大厅</a>
+                <a href="https://p.nju.edu.cn/" target="_blank" rel="noopener noreferrer">南京大学wifi</a>
+                <a href="https://mail.nju.edu.cn/" target="_blank" rel="noopener noreferrer">南京大学邮箱</a>
+                <a href="http://elite.nju.edu.cn/jiaowu/login.do" target="_blank" rel="noopener noreferrer">南京大学教务系统</a>
+                <a href="https://box.nju.edu.cn/" target="_blank" rel="noopener noreferrer">南大云盘box</a>
+                <a href="https://jw.nju.edu.cn/" target="_blank" rel="noopener noreferrer">南大本科生院教学信息网</a>
+                <a href="https://lib.nju.edu.cn/" target="_blank" rel="noopener noreferrer">南大图书馆</a>
+                <a href="https://test.nju.edu.cn/" target="_blank" rel="noopener noreferrer">南大测速</a>
+                <a href="https://itsc.nju.edu.cn/main.htm" target="_blank" rel="noopener noreferrer">信息化建设管理服务中心</a>
+                <a href="https://table.nju.edu.cn/" target="_blank" rel="noopener noreferrer">南大table</a>
+            </div>
+        </section>
+
+        <section class="link-section" aria-labelledby="course-heading">
+            <h2 id="course-heading">课程网站</h2>
+            <div class="link-grid">
+                <a href="http://10.58.102.15:3001/" target="_blank" rel="noopener noreferrer">机器学习导论</a>
+                <a href="http://ws2.nju.edu.cn/kgwiki/doku.php?id=courses:db2" target="_blank" rel="noopener noreferrer">数据库概论</a>
+                <a href="https://cslab-cms.nju.edu.cn/classrooms/iazf4uhj/announcement" target="_blank" rel="noopener noreferrer">数据库cslab</a>
+                <a href="https://daiwz.net/teaching/" target="_blank" rel="noopener noreferrer">数理逻辑</a>
+                <a href="https://www.ketangpai.cn/#/main/classDetail?courseid=MDAwMDAwMDAwMLOcuZaGqbuxhaVyoQ&courserole=0&submodulename=0" target="_blank" rel="noopener noreferrer">操作系统 课堂派</a>
+                <a href="https://nju-3dv.github.io/cm2026/" target="_blank" rel="noopener noreferrer">计算方法</a>
+                <a href="https://github.com/LAMDASZ-ML/Lab-RoadMap" target="_blank" rel="noopener noreferrer">Lab-RoadMap</a>
+                <a href="https://datawhalechina.github.io/happy-llm/#/" target="_blank" rel="noopener noreferrer">Happy_LLM</a>
+                <a href="https://datawhalechina.github.io/hello-agents/#/" target="_blank" rel="noopener noreferrer">Hello-Agents</a>
+            </div>
+        </section>
+
+        <section class="link-section" aria-labelledby="ai-heading">
+            <h2 id="ai-heading">AI</h2>
+            <div class="link-grid">
+                <a href="https://chat.deepseek.com/" target="_blank" rel="noopener noreferrer">deepseek</a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">github</a>
+                <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">chatgpt</a>
+                <a href="https://gemini.google.com/app" target="_blank" rel="noopener noreferrer">gemini</a>
+                <a href="https://www.doubao.com/" target="_blank" rel="noopener noreferrer">豆包</a>
+                <a href="https://sakura-cat1.com/dashboard" target="_blank" rel="noopener noreferrer">sakura cat</a>
+            </div>
+        </section>
+
+        <section class="link-section" aria-labelledby="ai-research-heading">
+            <h2 id="ai-research-heading">AI 科研</h2>
+            <div class="link-grid">
+                <a href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+                <a href="https://arxiv.org/" target="_blank" rel="noopener noreferrer">arXiv</a>
+                <a href="https://www.semanticscholar.org/" target="_blank" rel="noopener noreferrer">
+                    Semantic Scholar
+                </a>
+                <a href="https://openreview.net/" target="_blank" rel="noopener noreferrer">OpenReview</a>
+                <a href="https://huggingface.co/" target="_blank" rel="noopener noreferrer">Hugging Face</a>
+                <a href="https://huggingface.co/papers" target="_blank" rel="noopener noreferrer">
+                    Hugging Face Papers
+                </a>
+                <a href="https://jmlr.org/" target="_blank" rel="noopener noreferrer">JMLR</a>
+                <a href="https://www.jmlr.org/tmlr/" target="_blank" rel="noopener noreferrer">TMLR</a>
+                <a href="https://openaccess.thecvf.com/" target="_blank" rel="noopener noreferrer">CVF Open Access</a>
+                <a href="https://aclanthology.org/" target="_blank" rel="noopener noreferrer">ACL Anthology</a>
+                <a href="https://neurips.cc/" target="_blank" rel="noopener noreferrer">NeurIPS</a>
+                <a href="https://icml.cc/" target="_blank" rel="noopener noreferrer">ICML</a>
+                <a href="https://iclr.cc/" target="_blank" rel="noopener noreferrer">ICLR</a>
+                <a href="https://dblp.org/" target="_blank" rel="noopener noreferrer">DBLP</a>
+            </div>
+        </section>
+
+        <section class="link-section" aria-labelledby="common-heading">
+            <h2 id="common-heading">常用网站</h2>
+            <div class="link-grid">
+                <a href="https://njuis-students.github.io/" target="_blank" rel="noopener noreferrer">
+                    智科全家桶
+                </a>
+                <a href="https://www.bilibili.com/" target="_blank" rel="noopener noreferrer">B站</a>
+                <a href="https://music.163.com/" target="_blank" rel="noopener noreferrer">网易云音乐</a>
+                <a href="https://www.baidu.com/" target="_blank" rel="noopener noreferrer">百度</a>
+                <a href="https://www.bing.com/" target="_blank" rel="noopener noreferrer">bing</a>
+                <a href="https://passport2.chaoxing.com/login?fid=&newversion=true&refer=https%3A%2F%2Fi.chaoxing.com" target="_blank" rel="noopener noreferrer">学习通网页版</a>
+                <a href="https://www.paperpass.com/" target="_blank" rel="noopener noreferrer">pass paper</a>
+                <a href="https://leetcode.cn/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+                <a href="https://www.youdao.com/" target="_blank" rel="noopener noreferrer">有道词典</a>
+                <a href="https://ref.cpl.icu/" target="_blank" rel="noopener noreferrer">C语言手册</a>
+            </div>
+        </section>
+    </main>
+<script>
+        (function() {
+            var form = document.querySelector('.search-form');
+            var select = document.getElementById('engine-select');
+            var input = form.querySelector('input');
+            var url = localStorage.getItem('searchEngine') || 'https://www.bing.com/search';
+            select.value = url;
+            form.action = url;
+            select.addEventListener('change', function() {
+                form.action = this.value;
+                localStorage.setItem('searchEngine', this.value);
+            });
+            form.addEventListener('submit', function(e) {
+                if (form.action.includes('baidu.com')) {
+                    input.name = 'wd';
+                } else {
+                    input.name = 'q';
+                }
+            });
+        })();
+    </script>
+    <script>
+        (function() {
+            const searchForm = document.getElementById('search-form');
+            const searchInput = document.getElementById('search-input');
+            const suggestionsContainer = document.getElementById('search-suggestions');
+            let suggestions = [];
+            let selectedIndex = -1;
+            let debounceTimer = null;
+
+            searchInput.addEventListener('input', function() {
+                const query = this.value.trim();
+                
+                clearTimeout(debounceTimer);
+                
+                if (!query) {
+                    hideSuggestions();
+                    return;
+                }
+
+                debounceTimer = setTimeout(function() {
+                    fetchSuggestions(query);
+                }, 20);
+            });
+
+            searchInput.addEventListener('keydown', function(e) {
+                if (e.key === 'ArrowDown') {
+                    e.preventDefault();
+                    if (selectedIndex < suggestions.length - 1) {
+                        selectedIndex++;
+                        updateSelected();
+                    }
+                } else if (e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    if (selectedIndex > 0) {
+                        selectedIndex--;
+                        updateSelected();
+                    }
+                } else if (e.key === 'Enter') {
+                    if (selectedIndex >= 0 && suggestions[selectedIndex]) {
+                        e.preventDefault();
+                        searchInput.value = suggestions[selectedIndex];
+                        searchForm.submit();
+                    }
+                } else if (e.key === 'Escape') {
+                    hideSuggestions();
+                }
+            });
+
+            searchForm.addEventListener('submit', function() {
+                hideSuggestions();
+            });
+
+            document.addEventListener('click', function(e) {
+                if (!searchForm.contains(e.target)) {
+                    hideSuggestions();
+                }
+            });
+
+            function fetchSuggestions(query) {
+                const script = document.createElement('script');
+                const callbackName = 'bingCallback_' + Date.now();
+                
+                window[callbackName] = function(data) {
+                    suggestions = data[1] || [];
+                    displaySuggestions(suggestions);
+                    delete window[callbackName];
+                    if (script.parentNode) script.parentNode.removeChild(script);
+                };
+                
+                script.src = 'https://www.bing.com/osjson.aspx?query=' + encodeURIComponent(query) + '&JsonType=callback&JsonCallback=' + callbackName;
+                script.onerror = function() {
+                    hideSuggestions();
+                    delete window[callbackName];
+                    if (script.parentNode) script.parentNode.removeChild(script);
+                };
+                document.body.appendChild(script);
+            }
+
+            function displaySuggestions(items) {
+                if (items.length === 0) {
+                    hideSuggestions();
+                    return;
+                }
+
+                suggestionsContainer.innerHTML = '';
+                selectedIndex = -1;
+
+                items.slice(0, 5).forEach(function(item) {
+                    const div = document.createElement('div');
+                    div.className = 'suggestion-item';
+                    div.textContent = item;
+                    div.addEventListener('click', function() {
+                        searchInput.value = item;
+                        searchForm.submit();
+                    });
+                    suggestionsContainer.appendChild(div);
+                });
+
+                suggestionsContainer.classList.add('active');
+            }
+
+            function hideSuggestions() {
+                suggestionsContainer.classList.remove('active');
+                suggestions = [];
+                selectedIndex = -1;
+            }
+
+            function updateSelected() {
+                const items = suggestionsContainer.querySelectorAll('.suggestion-item');
+                items.forEach(function(item, index) {
+                    if (index === selectedIndex) {
+                        item.classList.add('selected');
+                    } else {
+                        item.classList.remove('selected');
+                    }
+                });
+            }
+        })();
+    </script>
+</body>
+
+</html>
